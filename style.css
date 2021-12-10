@@ -1,0 +1,55 @@
+body {
+  background-color: grey;
+  font: poppins, sans-serif;
+}
+
+.cardContainer {
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  margin: 30px 10px 10px 10px;
+  padding: 10px;
+  background-color: lightgrey;
+  width: 50px;
+  text-align: center;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.suit {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.name {
+  margin: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.deal-button {
+  padding: 0.5rem;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.deal-button:hover {
+  background: #d88771;
+  color: white;
+}
